@@ -1,0 +1,204 @@
+:root {
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --primary-text-color:#2E2F42;
+    --secondary-text-color:#434455;
+    --third-text-color:#ffffff;
+    --accent-color:#4D5AE5;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    background-color: var(--third-text-color);
+
+
+}
+.adress {
+    font-style: normal;
+}
+/* ====================COMPONENTS================= */
+.page-header {
+    background-color: var(--third-text-color);
+}
+.logo {
+    font-family:var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    color: var(--accent-color);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
+}
+
+.logo-light {
+    color: #F4F4FD;
+}
+.logo-dark {
+    color: var(--primary-text-color);
+}
+
+.footer-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
+.card-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+        
+
+
+/* ================/COMPONENTS================= */
+
+/* ====================HEADER===================== */
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.adress-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: var(--secondary-text-color);
+}
+.adress-link:hover,
+.adress-link:focus {
+    color:#404bbf;
+}
+/* ====================/HEADER===================== */
+
+/* ====================SECTION 1===================== */
+.hero {
+    background-color: var(--primary-text-color);
+}
+
+
+.modal-btn {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: var(--third-text-color);
+    background-color: var(--accent-color);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404bbf;
+}
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--third-text-color);
+}
+
+/* ====================/SECTION 1===================== */
+
+/* ==========================SECTION 2=============== */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.feature-description {
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+/* =========================/SECTION 2================ */
+
+/* =========================SECTION 3=================== */
+.section-three {
+    background-color: var(--third-text-color);
+}
+
+/* =========================/SECTION 3=================== */
+
+/* ====================SECTION 4====================== */
+.section-four {
+    background-color: #F4F4FD;
+}
+.team-list-item {
+    background-color: var(--third-text-color);
+}
+/* ==============
+==/SECTION 4====================== */
+
+/* =======================FOOTER==================== */
+.footer {
+    background-color: var(--primary-text-color);
+}
+
+/* =======================/FOOTER==================== */
+
+
+/* ========================PORTFOLIO======================================  */
+
+
+/* ======================SECTION 1=============================*/
+.buttons {
+font-weight: 500;
+line-height: 1.5;
+display: flex; 
+letter-spacing: 0.04em;
+color: var(--accent-color);
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+.buttons:hover,
+.buttons:focus {
+    color: var(--third-text-color);
+    background-color: #404bbf;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+/* ======================/SECTION 1======================== */
+/* ==================================/PORTFOLIO========================= */
